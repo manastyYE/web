@@ -478,7 +478,7 @@ li:hover>a>span {
     background-color: #24c386!important;
 }
 .panel-heading {
-    background-color: #7e0095;
+    background-color: #06229c;
     color: #fff;
     padding: 20px 0;
 }
@@ -504,7 +504,7 @@ li:hover>a>span {
 .section-item .form-control {
     height: 40px;
     padding: 5px 20px;
-    color: #7e0095;
+    color: #06229c;
     font-weight: 500;
 }
 
@@ -612,7 +612,7 @@ border-color:  hsl(153 48% 49% / 1)!important;
 }
 
 .section .section-item h4{
-    color: #7e0095;
+    color: #06229c;
     font-weight: 700;
     margin-bottom: 0 !important;
 }
@@ -650,7 +650,7 @@ border-color:  hsl(153 48% 49% / 1)!important;
 
 
 .form-control:focus {
-    border:1px solid #7e0095!important;
+    border:1px solid #06229c!important;
 }
 
 .installer.auth-section{

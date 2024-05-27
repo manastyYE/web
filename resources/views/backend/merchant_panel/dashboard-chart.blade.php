@@ -53,7 +53,7 @@
             ]
         }
     ],
-    // colors:['#2E93fA', '#ff407b'],
+    // colors:['#2E93fA', '#b13719'],
     chart: {
         height: 600,
         width: '100%',
@@ -62,7 +62,7 @@
     stroke: {
         curve: 'smooth'
     },
-    colors:['#2E93fA', '#ff407b','#009688','#2ec551','#0998b0'],
+    colors:['#2E93fA', '#b13719','#009688','#2ec551','#0998b0'],
     fill: {
         type: 'gradient',
         gradient: {
@@ -105,7 +105,7 @@ chart.render();
           height: 700,
           type: 'pie',
         },
-        colors:[ '#ff407b','#009688','#2ec551','#0998b0'],
+        colors:[ '#b13719','#009688','#2ec551','#0998b0'],
         labels: ["{{ __('dashboard.pending') }}","{{ __('dashboard.deliver') }}","{{ __('dashboard.par_deliver') }}","{{ __('dashboard.return') }}"],
         title: {
         text: ' {{ __("parcel.title") }}',

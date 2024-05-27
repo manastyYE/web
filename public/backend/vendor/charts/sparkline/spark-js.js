@@ -1,4 +1,4 @@
- 
+
     $(function() {
             "use strict";
         if ($('#sparkline1').length) {
@@ -11,7 +11,7 @@
 
             });
 
-            
+
         }
 
 
@@ -20,9 +20,9 @@
                 type: 'line',
                 width: '60%',
                 height: '50',
-                spotColor: '#ff407b',
-                minSpotColor: '#ff407b',
-                maxSpotColor: '#ff407b',
+                spotColor: '#b13719',
+                minSpotColor: '#b13719',
+                maxSpotColor: '#b13719',
                 lineColor: '#5969ff',
                  lineWidth:'2'
             });
@@ -48,9 +48,9 @@
                 fillColor: null,
                 width: '60%',
                 height: '50',
-                spotColor: '#ff407b',
-                minSpotColor: '#ff407b',
-                maxSpotColor: '#ff407b',
+                spotColor: '#b13719',
+                minSpotColor: '#b13719',
+                maxSpotColor: '#b13719',
                  lineWidth:'2'
             });
         }
@@ -65,17 +65,17 @@
             resize: true,
             barSpacing: '7',
             barColor: '#25d5f2',
-         
+
         });
             $('#compositebar').sparkline([4, 1, 5, 7, 9, 9, 8, 7, 6, 6, 4, 7, 8, 4, 3, 2, 2, 5, 6, 7], {
                 composite: true,
                 fillColor: false,
                 lineColor: '#25d5f2',
-                spotColor: '#ff407b',
-                minSpotColor: '#ff407b',
-                maxSpotColor: '#ff407b',
+                spotColor: '#b13719',
+                minSpotColor: '#b13719',
+                maxSpotColor: '#b13719',
                  lineWidth:'2'
-             
+
             });
         }
 
@@ -84,7 +84,7 @@
             $("#sparkline5").sparkline([10, 12, 12, 9, 7], {
                 type: 'bullet',
                 targetColor: '#5969ff',
-                performanceColor: '#ff407b',
+                performanceColor: '#b13719',
                   height: '50',
                   width:'180',
                  resize: true
@@ -95,8 +95,8 @@
 
         if ($('#sparkline6').length) {
             $("#sparkline6").sparkline([1, 1, 2], {
-               
-                sliceColors: ['#ff407b', '#5969ff #5969ff', '#5969ff', '#ff407b', '#ff407b'],
+
+                sliceColors: ['#b13719', '#5969ff #5969ff', '#5969ff', '#b13719', '#b13719'],
                 type: 'pie',
             height: '50',
             resize: true
@@ -111,15 +111,15 @@
             $("#sparkline7").sparkline([4, 27, 34, 52, 54, 59, 61, 68, 78, 82, 85, 87, 91, 93, 100], {
                 type: 'box',
                 boxFillColor: '#5969ff',
-                medianColor: '#ff407b',
-                targetColor: '#ff407b',
+                medianColor: '#b13719',
+                targetColor: '#b13719',
                 height:'50',
                 width:'200',
                   resize: true,
-                 
+
             });
         }
 
 });
 
-   
+

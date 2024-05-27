@@ -22,13 +22,13 @@ table tr th{
             color:white!important;
         }
     table tfoot,table thead{
-            background:#7e0095!important;
+            background:#06229c!important;
             color:white;
         }
 
 
     table tr.odd{
-        background: #7e0095;
+        background: #06229c;
     }
     table tr td{
         padding:5px;
@@ -48,7 +48,7 @@ table tr th{
 
     .btn-primary{
         color: #fff;
-        background-color: #7e0095;
+        background-color: #06229c;
         border-color: #5969ff;
         font-size: 14px;
         padding: 9px 16px;
@@ -69,7 +69,7 @@ table tr th{
     }
     .bg-primary{
         color: #fff;
-        background-color: #7e0095;
+        background-color: #06229c;
     }
 
 
@@ -121,7 +121,7 @@ table tr th{
     }
 
     .badge-secondary{
-        background-color: #ff407b;
+        background-color: #b13719;
         color:white;
     }
 

@@ -10,9 +10,9 @@
                 color:#8094ae;
             }
             a{
-                color:#7e0095;
+                color:#06229c;
             }
- 
+
             ul {
                 display: inline-block;
                 text-align: center;
@@ -36,7 +36,7 @@
 </head>
     <body style="margin: 10;">
         <table style="width:100%;height:50px;max-width:650px;margin: auto;">
-            <tr> 
+            <tr>
                 <td style="text-align: center;padding:30px 10px">
                     <a href="{{ url('/') }}"><img src="{{ $logoImage }}" style="height: 50px;width:250px;object-fit:contain"/></a>
                 </td>
@@ -55,7 +55,7 @@
                 </td>
             </tr>
         </table>
-        <table style="width:100%;height:50px;max-width:650px;margin: auto; "> 
+        <table style="width:100%;height:50px;max-width:650px;margin: auto; ">
                 <tr>
                     <td style="padding:0px 30px;text-align: center;">
                         <p style="font-size: 13px;">

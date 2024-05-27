@@ -37,13 +37,13 @@
     content: none;
   }
   .progressbar li.active {
-    color: #7e0095;
+    color: #06229c;
   }
   .progressbar li.active:before {
-    border-color: #7e0095;
+    border-color: #06229c;
   }
   .progressbar li.active + li:after {
-    background-color: #7e0095;
+    background-color: #06229c;
   }
 
   .progressbar li{
@@ -61,7 +61,7 @@
   }
 
   .progressbar .active i.fa.fa-check{
-      background: #7e0095!important;
+      background: #06229c!important;
       color: white!important;
   }
   .progressbar i.fa-list,
@@ -85,5 +85,5 @@
   }
 
   .active i.fa.fa-truck, .active i.fas.fa-truck-loading,.active i.fas.fa-warehouse,.active i.fas.fa-hourglass-start,.active i.fas.fa-handshake,.active i.fas.fa-undo-alt{
-      color:#7e0095;
+      color:#06229c;
   }

@@ -55,7 +55,7 @@
                                     }]
                                 }
                             }
-                        
+
 
 
                     });
@@ -117,7 +117,7 @@
                     }
                 }
 
-                    
+
                 });
             }
 
@@ -142,7 +142,7 @@
                         }]
                     },
                     options: {
-                       
+
                              legend: {
                         display: true,
                         position: 'bottom',
@@ -154,7 +154,7 @@
                         }
                     },
 
-                    
+
                 }
 
                 });
@@ -170,7 +170,7 @@
                         datasets: [{
                             backgroundColor: [
                                 "#5969ff",
-                                "#ff407b",
+                                "#b13719",
                                 "#25d5f2",
                                 "#ffc750",
                                 "#2ec551",
@@ -181,7 +181,7 @@
                         }]
                     },
                     options: {
-                        
+
                              legend: {
                         display: true,
                         position: 'bottom',
@@ -193,7 +193,7 @@
                         }
                     },
 
-                    
+
                 }
                 });
             }
@@ -208,7 +208,7 @@
                         datasets: [{
                             backgroundColor: [
                                "#5969ff",
-                                "#ff407b",
+                                "#b13719",
                                 "#25d5f2",
                                 "#ffc750",
                                 "#2ec551",
@@ -230,7 +230,7 @@
                         }
                     },
 
-                    
+
                 }
                 });
             }
@@ -245,7 +245,7 @@
                         datasets: [{
                             backgroundColor: [
                                  "#5969ff",
-                                "#ff407b",
+                                "#b13719",
                                 "#25d5f2",
                                 "#ffc750",
                                 "#2ec551",
@@ -268,7 +268,7 @@
                         }
                     },
 
-                    
+
                 }
 
                 });

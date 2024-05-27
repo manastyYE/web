@@ -1,5 +1,5 @@
 $(function() {
-    "use strict"; 
+    "use strict";
 
     $(document).ready(function() {
 
@@ -42,8 +42,8 @@ $(function() {
                     title: 'Conference',
                     start: '2018-03-11',
                     end: '2018-03-13',
-                    backgroundColor: '#ff407b',
-                    borderColor: '#ff407b'
+                    backgroundColor: '#b13719',
+                    borderColor: '#b13719'
 
                 },
                 {
@@ -56,8 +56,8 @@ $(function() {
                 {
                     title: 'Lunch',
                     start: '2018-03-12T12:00:00',
-                    backgroundColor: '#ff407b',
-                    borderColor: '#ff407b'
+                    backgroundColor: '#b13719',
+                    borderColor: '#b13719'
 
                 },
                 {
@@ -91,8 +91,8 @@ $(function() {
         });
 
     });
-  
-   
+
+
     $(document).ready(function() {
 
 

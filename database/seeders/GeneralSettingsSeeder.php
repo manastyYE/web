@@ -37,7 +37,7 @@ class GeneralSettingsSeeder extends Seeder
         $row->par_track_prefix     = 'we';
         $row->invoice_prefix       = 'we';
         $row->current_version      = '1';
-        $row->primary_color        = '#7e0095';
+        $row->primary_color        = '#06229c';
         $row->text_color           = '#ffffff';
         $row->save();
         return $row;

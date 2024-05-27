@@ -15,7 +15,7 @@
         }
 
         a {
-            color: #7e0095;
+            color: #06229c;
         }
 
         ul {
@@ -54,7 +54,7 @@
                 <p>Hi <b style="font-style: italic;">{{ @$data['merchant_user']->name }}</b>,</p>
                 <p>Thank you for your interest in becoming an merchant with {{ @settings()->name }}.</p>
                 <p>Your login is <b style="font-style: italic;">{{ @$data['merchant_user']->email }}</b></p>
-                <p style="color: #7e0095;font-weight: bold;">Your Business Information :</p>
+                <p style="color: #06229c;font-weight: bold;">Your Business Information :</p>
                 <div style="display: flex;">
                     <div style="width: 20%;display: inline-block;"><b>Business Name</b></div>
                     <div>: {{ @$data['merchant']->business_name }}</div>
@@ -73,7 +73,7 @@
                 </div>
                 <p>Please login your panel
                     <a target="_blank" href="{{ url('login') }}"
-                        style="background-color: #7e0095;color: white; margin-left:10px;padding: 7px 15px; border: none;text-decoration: none;border-radius: 3px;">Login</a>
+                        style="background-color: #06229c;color: white; margin-left:10px;padding: 7px 15px; border: none;text-decoration: none;border-radius: 3px;">Login</a>
                 </p>
                 <p>Hope you'll enjoy the experience, we're here if you have any questions, drop us a line at <a
                         href="mailto:{{ @settings()->email }}">{{ @settings()->email }}</a> or

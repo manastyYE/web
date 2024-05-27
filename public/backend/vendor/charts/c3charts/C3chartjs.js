@@ -16,7 +16,7 @@
                     },
                     colors: {
                         data1: '#5969ff',
-                        data2: '#ff407b',
+                        data2: '#b13719',
 
                     }
 
@@ -50,7 +50,7 @@
                     type: 'spline',
                     colors: {
                          data1: '#5969ff',
-                        data2: '#ff407b',
+                        data2: '#b13719',
 
                     }
                 },
@@ -116,7 +116,7 @@
                     type: 'scatter',
                     colors: {
                         setosa: '#5969ff',
-                        versicolor: '#ff407b',
+                        versicolor: '#b13719',
 
                     }
                 },
@@ -177,7 +177,7 @@
 
                     colors: {
                         data1: '#5969ff',
-                        data2: '#ff407b',
+                        data2: '#b13719',
                         data3: '#64ced3'
 
                     }
@@ -244,7 +244,7 @@
 
                     colors: {
                         data1: '#5969ff',
-                        data2: '#ff407b',
+                        data2: '#b13719',
                         data3: '#25d5f2',
                         data4: '#ffc750',
                         data5: '#2ec551',
@@ -279,7 +279,7 @@
 
                     colors: {
                          data1: '#5969ff',
-                        data2: '#ff407b'
+                        data2: '#b13719'
 
 
                     }
@@ -309,7 +309,7 @@
 
                     colors: {
                          data1: '#5969ff',
-                        data2: '#ff407b'
+                        data2: '#b13719'
 
 
                     }
@@ -357,7 +357,7 @@
                     onmouseout: function(d, i) { console.log("onmouseout", d, i); },
                     colors: {
                       data1: '#5969ff',
-                        data2: '#ff407b',
+                        data2: '#b13719',
                         data3: '#25d5f2',
                         data4: '#ffc750',
                         data5: '#2ec551',

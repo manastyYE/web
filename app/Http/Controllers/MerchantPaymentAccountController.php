@@ -27,6 +27,7 @@ class MerchantPaymentAccountController extends Controller
     public function paymentAdd($id){
         $singleMerchant = $this->repo->get($id);
         $merchant_id    = $id;
+        
         return view('backend.merchant.payment.add_payment',compact('singleMerchant','merchant_id' ));
     }
     public function paymentEdit($mid,$id){
