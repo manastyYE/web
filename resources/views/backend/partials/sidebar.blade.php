@@ -406,13 +406,13 @@
                     aria-controls="submenu-1"><i class="fa fa-bell"></i>{{ __('menus.push_notification') }}</a>
             </li>
         @endif
-        {{-- @if (env('DEMO') == false)
+        @if (env('DEMO') == false)
             <li class="nav-item ">
                 <a class="nav-link {{ request()->is('admin/addons*') ? 'active' : '' }}"
                     href="{{ route('addons.index') }}" aria-expanded="false" data-target="#submenu-1"
                     aria-controls="submenu-1"><i class="fa fa-upload"></i>{{ __('menus.addons') }}</a>
             </li>
-        @endif --}}
+        @endif
 
 
         @if (hasPermission('social_link_read') == true || hasPermission('service_read') == true)

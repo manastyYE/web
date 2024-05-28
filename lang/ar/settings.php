@@ -1,11 +1,11 @@
 <?php
 
 return [
-        'location'   => 'الموقع',
-        'charges'     => 'الرسوم',
-        'save_change' => 'تم حفظ التغييرات بنجاح',
-
-        'currency'            => 'العملة',
+        'location'   => 'موقع',
+        'charges'     => 'شحنة',
+        'save_change' => 'تم تغيير الحفظ بنجاح',
+ 
+        'currency'            => 'عملة',
         'exchange_rate'       => 'سعر الصرف',
         'enter_exchange_rate' => 'أدخل سعر الصرف',
         'symbol'              => 'رمز',

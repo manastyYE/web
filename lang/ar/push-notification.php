@@ -1,11 +1,11 @@
 <?php
 
 return array (
-  'title'                       => 'الاشعارات',
-  'create_push_notification'    => 'إنشاء اشعار',
-  'edit_push_notification'      => 'تحرير إشعار',
-  'added_msg'                   => 'تمت إضافة الاشعار بنجاح.',
-  'update_msg'                  => 'تم تحديث الاشعار بنجاح',
-  'delete_msg'                  => 'تم حذف الاشعار بنجاح',
+  'title'                       => 'دفع الإخطار',
+  'create_push_notification'    => 'إنشاء إعلام دفع',
+  'edit_push_notification'      => 'تحرير إعلام دفع',
+  'added_msg'                   => 'تمت إضافة إعلام الدفع بنجاح.',
+  'update_msg'                  => 'دفع إعلام التحديث بنجاح.',
+  'delete_msg'                  => 'تم حذف إعلام الدفع بنجاح.',
   'error_msg'                   => 'هناك خطأ ما.',
 );

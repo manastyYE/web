@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Auth;
 
 class MerchantOnlinePaymentSetupController extends Controller
 {
-    protected $repo,$MOPrepo,$MOPRmodel;
+    protected $repo,$MOPrepo;
     public function __construct(PaymentSetupInterface $repo, MerchantOnlinePaymentReceived $MOPRmodel){
         $this->repo     = $repo;
         $this->MOPRmodel  = $MOPRmodel;

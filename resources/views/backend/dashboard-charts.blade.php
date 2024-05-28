@@ -20,7 +20,7 @@
                     @endforeach
                 ]
             }],
-            colors:['#2E93fA', '#b13719'],
+            colors:['#2E93fA', '#ff407b'],
             chart: {
                 height: 450,
                 type: 'area',
@@ -72,7 +72,7 @@
         chart.render();
 
 </script>
-
+ 
 
 <script type="text/javascript">
     //apex piecharts courier revenue
@@ -87,12 +87,12 @@
 
         fill: {
           opacity: 1,
-          colors:['#2E93fA', '#b13719'],
+          colors:['#2E93fA', '#ff407b'],
         },
-        colors:['#2E93fA', '#b13719'],
+        colors:['#2E93fA', '#ff407b'],
         stroke: {
           width: 1,
-          colors:['#2E93fA', '#b13719'],
+          colors:['#2E93fA', '#ff407b'],
         },
 
         title: {

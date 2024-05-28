@@ -2,7 +2,6 @@
 
 namespace App\Http\Middleware;
 
-use App\Models\Config;
 use App\Traits\ApiReturnFormatTrait;
 use Closure;
 use Illuminate\Http\Request;
@@ -19,9 +18,9 @@ class CheckApiKeyMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-
+         
         if($request->hasHeader('apiKey')):
-            if($request->header('apiKey') == Config::get('rxcourier.api_key')):
+            if($request->header('apiKey') == \Config::get('rxcourier.api_key')):
                 return $next($request);
             endif;
         endif;

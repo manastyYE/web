@@ -41,7 +41,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::prefix('v10')->group(function() {
 
-    // Route::middleware(['CheckApiKey'])->group(function () {
+    Route::middleware(['CheckApiKey'])->group(function () {
 
         // all apis goes here
         Route::post('/register',                                        [AuthController::class, 'register']);
@@ -164,7 +164,7 @@ Route::prefix('v10')->group(function() {
         });
         Route::post('deliveryman/parcel-location-update',            [DeliverymanController::class, 'parcelLocationUpdate']);
 
-    // });
+    });
 
     //frontend api
     Route::get('parcel/tracking/{tracking_id}',                         [ParcelController::class,'parcelTrackingLogs']);

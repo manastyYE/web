@@ -30,7 +30,7 @@
                         <label for="payment_method">{{ __('merchant.payment_method') }}</label> <span class="text-danger"></span>
                         <select id="payment_method" name="payment_method" class="form-control @error('payment_method') is-invalid @enderror" data-url="{{ route('merchant.paymentmethod.change') }}" >
                             <option disabled selected>{{ __('merchant.select_payment_method') }}</option>
-                            @foreach (App\Enums\Merchant_panel::get('merchantpayment.payment_method') as $value)
+                            @foreach (\Config::get('merchantpayment.payment_method') as $value)
                                 <option value="{{ $value }}"
                                 @if(
                                         $errors->has('bank_name')   ||

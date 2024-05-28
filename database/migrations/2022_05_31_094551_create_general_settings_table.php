@@ -27,7 +27,7 @@ return new class extends Migration
             $table->string('current_version')->nullable();
             $table->string('par_track_prefix')->nullable();
             $table->string('invoice_prefix')->nullable();
-            $table->string('primary_color')->default('#06229c')->nullable();
+            $table->string('primary_color')->default('#7e0095')->nullable();
             $table->string('text_color')->default('#ffffff')->nullable();
             $table->timestamps();
         });

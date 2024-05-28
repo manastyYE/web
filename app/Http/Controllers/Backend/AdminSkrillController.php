@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 use Obydul\LaraSkrill\SkrillClient;
 use Obydul\LaraSkrill\SkrillRequest;
+use Redirect;
 
 class AdminSkrillController extends Controller
 {
@@ -29,7 +30,7 @@ class AdminSkrillController extends Controller
     }
 
     // Make Payment
-    private $skrilRequest,$accountRepo;
+    private $skrilRequest;
     public function index (Request $request){
         $merchant_id      = $request->get('merchant_id');
         $accounts         = $this->accountRepo->getAll();
@@ -64,7 +65,7 @@ class AdminSkrillController extends Controller
         if ($jsonSID != null && $jsonSID->code != "BAD_REQUEST"){
             $this->skrilRequest->return_url  =  $this->storePayment($request,$this->skrilRequest->transaction_id) ;
         }
-        return redirect()->to($redirectUrl); // redirect user to Skrill payment page
+        return Redirect::to($redirectUrl); // redirect user to Skrill payment page
     }
 
 

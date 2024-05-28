@@ -1,8 +1,8 @@
 <?php
 return [
             'pickup'            =>  'يلتقط',
-            'delivery'          =>  'التوصيل',
-            'payment'           =>  'الدفع',
+            'delivery'          =>  'توصيل',
+            'payment'           =>  'دفع',
             'billing_charges'   =>  'الفواتير والرسوم',
             'service'           =>  'خدمة',
             'other'             =>  'آخر'

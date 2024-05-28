@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <style>
         body{
             margin: 0px;
@@ -84,7 +84,7 @@
         </tr>
     </table>
     <table   cellspacing="0" width="100%">
-        <tr style="background-color: #06229c;color:white">
+        <tr style="background-color: #7e0095;color:white">
             <th style="padding: 3px 10px;">Date</th>
             <th style="padding: 3px 10px;">Customer Info</th>
             <th style="padding: 3px 10px;">Invoice id</th>
@@ -111,7 +111,7 @@
                 <td style="padding: 2px 10px;">{{@$parcel->current_payable}}</td>
             </tr>
             @endforeach
-            <tr style="background-color: #06229c;color:white">
+            <tr style="background-color: #7e0095;color:white">
                 <th style="text-transform: uppercase; padding: 2px 10px;" colspan="4">Total</th>
                 <th style="padding: 2px 10px;"> {{ number_format($invoice->parcels->sum('cash_collection'),2) }} </th>
                 <th style="padding: 2px 10px;"> {{ number_format($invoice->parcels->sum('delivery_charge'),2) }} </th>

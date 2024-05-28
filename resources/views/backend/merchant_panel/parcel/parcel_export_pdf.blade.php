@@ -80,7 +80,7 @@
         </tr>
     </table>
     <table   cellspacing="0" width="100%">
-        <tr style="background-color: #06229c;color:white">
+        <tr style="background-color: #7e0095;color:white">
             <th style=" padding: 3px 10px;">#</th>
             <th style=" padding: 3px 10px;">Invoice ID</th>
             <th style=" padding: 3px 10px;">Tracking ID</th>
@@ -109,7 +109,7 @@
                 <td style=" padding: 2px 10px;">{{@$parcel->current_payable}}</td>
             </tr>
             @endforeach
-            <tr style="background-color: #06229c;color:white">
+            <tr style="background-color: #7e0095;color:white">
                 <th style="text-transform: uppercase; padding: 2px 10px;" colspan="5">Total</th>
                 <th style=" padding: 2px 10px;"> {{ number_format($parcels->sum('cash_collection'),2) }} </th>
                 <th style=" padding: 2px 10px;"> {{ number_format($parcels->sum('delivery_charge'),2) }} </th>
