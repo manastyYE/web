@@ -1,6 +1,6 @@
 <?php
 
-return [
+return array(
     'id'                     => '#',
     'add'                    => 'إضافة',
     'submit'                 => 'تقديم',
@@ -218,6 +218,6 @@ return [
     'logout'                 => 'تسجيل الخروج',
     'dashboard'              => 'لوحة التحكم',
     'all_rights_reserved'    => 'كل الحقوق محفوظة',
-];
+);
 
 
