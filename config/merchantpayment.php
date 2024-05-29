@@ -11,6 +11,10 @@ return [
         'auhijsd'=>'uahij',
     ],
     'account_methods'=>[
-        'de'=>'de','in'=>'in'    ]
+        'de'=>'de','in'=>'in'    ],
+        'account_types'=>[
+            'ADMIN' => 1,
+            'USER'=>2,
+        ]
     ];
 ?>
