@@ -134,7 +134,7 @@
                                 <div class="form-group  ">
                                     <label for="bank_name">{{ __('merchant.select_bank') }}</label> <span class="text-danger">*</span>
                                     <select id="bank_name" name="bank_name" class="form-control @error('bank_name') is-invalid @enderror"   >
-                                        @foreach (\Config::get('merchantpayment.banks') as $value)
+                                        @foreach (Config::get('merchantpayment.banks') as $value)
                                             <option value="{{ __('merchant.'.$value) }}">{{ __('merchant.'.$value) }}</option>
                                         @endforeach
                                     </select>
@@ -166,7 +166,7 @@
                                 <div class="form-group  mobile"  >
                                     <label for="mobile_company">{{ __('merchant.select_mobile_company') }}</label> <span class="text-danger">*</span>
                                     <select id="mobile_company" name="mobile_company" class="form-control @error('mobile_company') is-invalid @enderror"  >
-                                        @foreach (\Config::get('merchantpayment.account_methods') as $value)
+                                        @foreach (Config::get('merchantpayment.account_methods') as $value)
                                             <option value="{{ __('merchant.'.$value) }}">{{ __('merchant.'.$value) }}</option>
                                         @endforeach
                                     </select>
@@ -177,7 +177,7 @@
                                 <div class="form-group  ">
                                     <label for="account_type">{{ __('merchant.account_type') }}</label> <span class="text-danger">*</span>
                                     <select id="account_type" name="account_type" class="form-control @error('account_type') is-invalid @enderror"  >
-                                        @foreach (\Config::get('merchantpayment.account_types') as $value)
+                                        @foreach (Config::get('merchantpayment.account_types') as $value)
                                             <option value="{{ __('merchant.'.$value) }}">{{ __('merchant.'.$value) }}</option>
                                         @endforeach
                                     </select>

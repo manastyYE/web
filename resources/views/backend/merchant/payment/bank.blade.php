@@ -9,7 +9,7 @@
     <div class="form-group  ">
         <label for="bank_name">{{ __('merchant.select_bank') }}</label> <span class="text-danger">*</span>
         <select id="bank_name" name="bank_name" class="form-control @error('bank_name') is-invalid @enderror"  ">
-            @foreach (\Config::get('merchantpayment.banks') as $value)
+            @foreach (Config::get('merchantpayment.banks') as $value)
                 <option value="{{ __('merchant.'.$value) }}">{{ __('merchant.'.$value) }}</option>
             @endforeach
         </select>
