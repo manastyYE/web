@@ -2,7 +2,7 @@
 
 return [
 
-  'dashboard'               => 'لوحة التحكم ',
+  'dashboard'               => 'لوحة التحكم',
   'supprot'                 => 'الدعم',
   'supprot_add'             => 'إضافة دعم',
   'supprot_edit'            => 'تحديث الدعم',
@@ -16,8 +16,8 @@ return [
   'subject'                 => 'موضوعات',
   'department_id'           => 'قسم',
   'service'                 => 'خدمة',
-  'priority'                => 'الاولوية',
-  'attached'                => 'مرفق',
+  'priority'                => 'أولوية',
+  'attached'                => 'تعلق',
   'user_info'               => 'معلومات المستخدم',
   'name'                    => 'اسم',
   'email'                   => 'البريد الإلكتروني',

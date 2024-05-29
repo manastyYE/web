@@ -83,7 +83,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'ar',
 
     /*
     |--------------------------------------------------------------------------
@@ -96,7 +96,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ar',
 
     /*
     |--------------------------------------------------------------------------
@@ -163,14 +163,14 @@ return [
          Maatwebsite\Excel\ExcelServiceProvider::class,
          RealRashid\SweetAlert\SweetAlertServiceProvider::class,
          Barryvdh\Debugbar\ServiceProvider::class,
-         Milon\Barcode\BarcodeServiceProvider::class, 
+         Milon\Barcode\BarcodeServiceProvider::class,
          Brian2694\Toastr\ToastrServiceProvider::class,
          Cartalyst\Stripe\Laravel\StripeServiceProvider::class ,
          Srmklive\PayPal\Providers\PayPalServiceProvider::class,
          // Anand\LaravelPaytmWallet\PaytmWalletServiceProvider::class,
          Obydul\LaraSkrill\LaraSkrillServiceProvider::class,
 
-         
+
         /*
          * Application Service Providers...
          */

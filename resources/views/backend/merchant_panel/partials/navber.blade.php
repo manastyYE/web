@@ -16,19 +16,11 @@
                                 <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     @if(app()->getLocale() == "en")
                                             <i class="flag-icon flag-icon-us"></i> {{ __('levels.english') }}
-                                        @elseif(app()->getLocale() == 'bn')
-                                            <i class="flag-icon flag-icon-bd"></i> {{ __('levels.bangla') }}
-                                        @elseif(app()->getLocale() == 'in')
-                                            <i class="flag-icon flag-icon-in"></i> {{ __('levels.hindi') }}
+
+
                                         @elseif(app()->getLocale() == 'ar')
                                             <i class="flag-icon flag-icon-sa"></i> {{ __('levels.arabic') }}
-                                        @elseif(app()->getLocale() == 'fr')
-                                            <i class="flag-icon flag-icon-fr"></i> {{ __('levels.franch') }}
-                                        @elseif(app()->getLocale() == 'es')
-                                            <i class="flag-icon flag-icon-es"></i> {{ __('levels.spanish') }}
-                                       @elseif(app()->getLocale()  == 'zh')
-                                            <i class="flag-icon flag-icon-zh"></i> {{ __('levels.chinese') }}
-                                        @endif
+                                            @endif
                                 </button>
                                 <div class="dropdown-menu" >
                                         <a class="dropdown-item" href="{{ route('setlocalization','en') }}"> <i class="flag-icon flag-icon-us"></i> {{ __('levels.english') }}</a>
@@ -202,7 +194,7 @@
 
                                                     </div>
                                                 </div>
-                                            </li> 
+                                            </li>
                                         </ul>
                                     </li>
 
@@ -298,7 +290,7 @@
                 <li class="nav-item dropdown connection mt-md-3">
                     <a class="dropdown-item m-newsoffers" href="{{ route('merchant-panel.news-offer.index') }}" data-toggle="tooltip" data-placement="top" title="{{ __('news_offer.title') }}"> <i class="fas fa-newspaper font-20"></i> </a>
                 </li>
-            
+
                 <li class="nav-item dropdown nav-user mobile mobilePlusBtn">
                     <button class="mtext-color btn nav-link dropdown-toggle merchantpanelAddbutton " style="color:#455560!important;padding: 5px 10px!important;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-plus"></i>

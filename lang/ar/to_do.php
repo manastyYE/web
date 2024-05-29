@@ -2,7 +2,7 @@
 use App\Enums\TodoStatus;
 return [
 
-  'dashboard'            => 'لوحة التحكم ',
+  'dashboard'            => 'لوحة التحكم',
   'to_do'                => 'لكى يفعل',
   'to_do_add'            => 'القيام بإضافة',
   'to_do_edit'           => 'تحديث المهام',
@@ -19,7 +19,7 @@ return [
   'status_update'        => 'تحديث الحالة',
   'added_msg'            => 'Todo الإدراج بنجاح!',
   'error_msg'            => 'عذرًا! هناك شئ غير صحيح',
-  'note'                 => 'ملحوظة',
+  'note'                 => 'ملاحظة',
     TodoStatus:: PENDING=>'ريثما',
     TodoStatus:: PROCESSING=>'يتم المعالجة',
     TodoStatus:: COMPLETED=>'منجز',

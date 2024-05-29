@@ -1,10 +1,10 @@
 <?php
 
 return [
-        'location'   => 'موقع',
-        'charges'     => 'شحنة',
+        'location'   => 'الموقع',
+        'charges'     => 'التكلفة',
         'save_change' => 'تم تغيير الحفظ بنجاح',
- 
+
         'currency'            => 'عملة',
         'exchange_rate'       => 'سعر الصرف',
         'enter_exchange_rate' => 'أدخل سعر الصرف',

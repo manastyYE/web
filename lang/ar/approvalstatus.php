@@ -3,9 +3,9 @@
 use App\Enums\ApprovalStatus;
 
 return [
-    ApprovalStatus::REJECT    => 'مرفوض',
-    ApprovalStatus::APPROVED  => 'موافق عليه',
-    ApprovalStatus::PENDING   => 'قيد الانتظار',
-    ApprovalStatus::PROCESSED => 'معالج'
-];
+    ApprovalStatus::REJECT    =>'رفض',
+    ApprovalStatus::APPROVED  =>'موافقة',
+    ApprovalStatus::PENDING   =>'قيد الانتظار',
+    ApprovalStatus::PROCESSED =>'معالجتها',
 
+];
