@@ -2,6 +2,9 @@
 
 return array(
     'id'                     => '#',
+    'home'                     => 'الرئيسية',
+    'pricing'                     => 'الاسعار',
+
     'add'                    => 'إضافة',
     'submit'                 => 'تقديم',
     'cancel'                 => 'إلغاء',
@@ -216,7 +219,7 @@ return array(
     'backup'                 => 'نسخ احتياطي',
     'restore'                => 'استعادة',
     'logout'                 => 'تسجيل الخروج',
-    'dashboard'              => 'لوحة التحكم',
+    // 'dashboard'              => 'لوحة التحكم',
     'all_rights_reserved'    => 'كل الحقوق محفوظة',
 );
 
