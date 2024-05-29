@@ -6,12 +6,12 @@ return array (
   'error_msg'                => 'هناك خطأ ما.',
   'income'                   => 'دخل',
   'expense'                  => 'مصروف',
-  'parcel'                   => 'قطعة',
-  'to_account'               => 'لحساب',
-  'amount'                   => 'مقدار',
+  'parcel'                   => 'طرد',
+  'to_account'               => 'الى حساب',
+  'amount'                   => 'المبلغ',
   'receipt'                  => 'إيصال',
-  'note'                     => 'ملحوظة',
+  'note'                     => 'ملاحظة',
   'date'                     => 'تاريخ',
-  'details'                  => 'تفاصيل',
+  'details'                  => 'التفاصيل',
 
 );

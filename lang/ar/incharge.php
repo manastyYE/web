@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'dashboard'       => 'لوحة القيادة',
+    'dashboard'       => 'لوحة التحكم ',
     'title'           => 'مسؤول عن',
     'list'            => 'قائمة',
     'create'          => 'إنشاء',

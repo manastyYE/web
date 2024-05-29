@@ -2,7 +2,7 @@
 use App\Enums\TodoStatus;
 return [
 
-  'dashboard'            => 'لوحة القيادة',
+  'dashboard'            => 'لوحة التحكم ',
   'to_do'                => 'لكى يفعل',
   'to_do_add'            => 'القيام بإضافة',
   'to_do_edit'           => 'تحديث المهام',
@@ -13,7 +13,7 @@ return [
   'assign'               => 'تعيين',
   'date'                 => 'تاريخ',
   'status'               => 'حالة',
-  'action'               => 'عمل',
+  'action'               => 'اجراءات',
   'delete'               => 'حذف',
    'sl'                  => 'مسلسل',
   'status_update'        => 'تحديث الحالة',

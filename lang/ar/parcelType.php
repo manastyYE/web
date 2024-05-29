@@ -8,7 +8,7 @@ return [
     ParcelType::GROCERY => 'خضروات',
     ParcelType::FROZEN => 'مجمدة',
     ParcelType::DRYFOOD => 'طعام جاف',
-    ParcelType::SWEET => 'حلو',
+    ParcelType::SWEET => 'حلويات',
     ParcelType::COSMETICS => 'مستحضرات التجميل',
 
 
