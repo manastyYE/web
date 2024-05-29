@@ -4,7 +4,7 @@ return [
     'log_name'          => 'اسم السجل',
     'event'             => 'حدث',
     'subject_type'      => 'نوع الموضوع',
-    'view'              =>  'رأي',
+    'view'              =>  'عرض',
     'description'       =>  'وصف',
 
     'log_details'       => 'تفاصيل السجل',

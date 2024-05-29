@@ -10,7 +10,7 @@ return [
   'edit'                   => 'يحرر',
   'duplicate'              => 'ينسخ',
   'show'                   => 'يعرض',
-  'view'                   => 'رأي',
+  'view'                   => 'عرض',
   'delete'                 => 'حذف',
   'actions'                => 'أجراءات',
   'active'                 => 'نشيط',

@@ -72,7 +72,7 @@ return [
             'status_change'         =>  'تغيير الوضع',
             'status_update'         =>  'تحديث الحالة',
             'permission_update'     =>  'تحديث الإذن',
-            'view'                  =>  'رأي',
+            'view'                  =>  'عرض',
             'parcel_status_reports' =>  'حالة الطرد',
             'parcel_wise_profit'    =>  'ربح لا يتجزأ من الحكمة',
             'parcel_total_summery'  =>  'مجموع الطرود الصيفية',
