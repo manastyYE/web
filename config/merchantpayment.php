@@ -9,6 +9,8 @@ return [
     'banks' => [
         'baaa'=>'faudj',
         'auhijsd'=>'uahij',
-    ]
+    ],
+    'account_methods'=>[
+        'de'=>'de','in'=>'in'    ]
     ];
 ?>
