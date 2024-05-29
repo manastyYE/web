@@ -26,7 +26,7 @@
 <!-- main wrapper -->
 <div id="dvMap"></div>
 <!-- Replace the value of the key parameter with your own API key. -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{googleMapSettingKey()}}&callback=initMap">
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries&callback=initMap">
 </script>
 
 <script>

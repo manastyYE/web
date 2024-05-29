@@ -9,7 +9,7 @@ return [
             InvoiceStatus::UNPAID     => 'غير مدفوع',
             InvoiceStatus::PROCESSING => 'يتم المعالجة',
             'paid_out'                => 'دفع',
-            'invoice'                 => 'فاتورة',
+            'invoice'                 => 'فاتورة','invoice'                 => 'فاتورة',
             'status_updated'          => 'تم تحديث حالة الفاتورة بنجاح',
             'status_update'           => 'تحديث الحالة',
             'paid_invoice'            => 'فاتورة مدفوعة',
