@@ -239,6 +239,6 @@
     </script>
     <script type="text/javascript" src="{{ static_asset('backend/js/map/map-current.js') }}"></script>
 
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries&loading=async&libraries=maps&v=beta">
+    <script async src="https://maps.googleapis.com/maps/api/js?key={{ googleMapSettingKey() }}&libraries=places&callback=initMap">
     </script>
 @endpush
