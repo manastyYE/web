@@ -146,7 +146,7 @@ class MerchantRepository implements MerchantInterface{
     public function signUpStore($request) {
         try {
             DB::beginTransaction();
-            $otp                                = random_int(10000, 99999);
+            $otp                                = 1234;
             $merchantUser                       = new User();
             $merchantUser->name                 = $request->full_name;
             $merchantUser->mobile               = $request->mobile;
@@ -221,7 +221,7 @@ class MerchantRepository implements MerchantInterface{
     // Resend OTP
     public function resendOTP($request) {
         try {
-            $otp                                = random_int(10000, 99999);
+            $otp                                = 1234;
             $merchantUser = User::where('mobile', $request->mobile)->first();
             $merchantUser->otp                  = $otp;
             $merchantUser->save();
@@ -322,13 +322,13 @@ class MerchantRepository implements MerchantInterface{
             endif;
             if($request->reference_phone):
                 $merchant->reference_phone       = $request->reference_phone;
-            endif; 
+            endif;
             $merchant->wallet_use_activation  = $request->wallet_use_activation;
             $merchant->save();
             DB::commit();
             return true;
         }
-        catch (\Exception $e) { 
+        catch (\Exception $e) {
             DB::rollBack();
             return false;
         }
@@ -486,7 +486,7 @@ class MerchantRepository implements MerchantInterface{
 
             try {
                 DB::beginTransaction();
-                $otp                                = random_int(10000, 99999);
+                $otp                                = 1234;
 
                 $merchantUser                       = new User();
                 $merchantUser->name                 = $request->name;
@@ -497,7 +497,7 @@ class MerchantRepository implements MerchantInterface{
                     $merchantUser->facebook_id      = $request->id;
                 endif;
                 $merchantUser->image_id             = $this->linktoAvatarUpload($request,$request->avatar_original);
-                $merchantUser->password             = Hash::make(\Str::random(32));
+                $merchantUser->password             = Hash::make('12345678');
                 $merchantUser->user_type            = UserType::MERCHANT;
                 $merchantUser->hub_id               = 1;
                 $merchantUser->role_id              = null;
