@@ -28,7 +28,7 @@ class PayoutController extends Controller
     protected $MOPRModel,$merchantAccountRepo;
     public function __construct(MerchantOnlinePaymentReceived $MOPRModel,AccountInterface $accountRepo){
         $this->MOPRModel           = $MOPRModel;
-        $this->accountRepo         = $accountRepo;
+        $this->merchantAccountRepo         = $accountRepo;
 
     }
 
@@ -45,7 +45,7 @@ class PayoutController extends Controller
       return view('backend.payout.payment_list',compact('merchant_id','oPayments'));
     }
     public function stripe(Request $request){
-        $accounts = $this->accountRepo->getAll();
+        $accounts = $this->merchantAccountRepo->getAll();
         $merchant_id      = $request->get('merchant_id');
         return view('backend.payout.stripe',compact('accounts','merchant_id'));
     }
@@ -56,7 +56,7 @@ class PayoutController extends Controller
             'services.stripe.secret'        => MerchantSearchSettings($request->merchantId,'stripe_secret_key'),
         ]);
 
-        $stripe = Stripe::charges()->create([
+        $stripe = \Cartalyst\Stripe\Laravel\Facades\Stripe::charges()->create([
             'source' => $request->get('tokenId'),
             'currency' => 'BDT',
             'amount' => $request->get('amount')
@@ -86,7 +86,7 @@ class PayoutController extends Controller
     }
 
     public function razorpay(Request $request){
-        $accounts = $this->accountRepo->getAll();
+        $accounts = $this->merchantAccountRepo->getAll();
         $merchant_id      = $request->get('merchant_id');
         $merchant = User::find($merchant_id);
         $amount = null;
@@ -125,7 +125,7 @@ class PayoutController extends Controller
     //Start Paypal Payment Gateway ==================
         public function paypalIndex(Request $request){
             $merchant_id = $request->get('merchant_id');
-            $accounts = $this->accountRepo->getAll();
+            $accounts = $this->merchantAccountRepo->getAll();
             return view('backend.payout.paypal',compact('merchant_id','accounts'));
         }
         public function paypalpayment(Request $request)
